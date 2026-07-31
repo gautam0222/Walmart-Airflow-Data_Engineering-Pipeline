@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+**/.dbt-credentials.yml
+airflow/walmart_project/profiles.yml
+
+# dbt-generated artifacts and logs
+logs/
+**/target/
+**/logs/
