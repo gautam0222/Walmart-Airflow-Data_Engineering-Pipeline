@@ -1,0 +1,1 @@
+DESCRIBE walmart_db_gautam.bronze.orders;
